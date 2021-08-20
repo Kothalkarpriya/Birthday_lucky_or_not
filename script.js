@@ -20,14 +20,14 @@ function clickHandler() {
 
 // Calculate the sum of Birth date
 function calculateSumOfBirthDate(dob) {
-
+// relacing - with nospace with the replaceAll method
     dob = dob.replaceAll("-", "");
     let sum = 0;
     for (let i = 0; i < dob.length; i++) {
         sum = sum + Number(dob.charAt(i));
     }
     return sum;
-    // console.log(replace);
+    // added all the numbers in bithdate
 }
 
 // Checking Birthdate is lucky or not
