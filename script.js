@@ -20,7 +20,7 @@ function clickHandler() {
 
 // Calculate the sum of Birth date
 function calculateSumOfBirthDate(dob) {
-// relacing - with nospace with the replaceAll method
+    // relacing - with nospace with the replaceAll method
     dob = dob.replaceAll("-", "");
     let sum = 0;
     for (let i = 0; i < dob.length; i++) {
