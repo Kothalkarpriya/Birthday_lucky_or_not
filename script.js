@@ -2,9 +2,12 @@ const birthDate = document.querySelector('#birth-date');
 const luckyNumber = document.querySelector('#number-input');
 const buttonCheck = document.querySelector('#btn-check');
 const result = document.querySelector('#output');
+// Created variables using id from Html
 
+// Adding a event listerner for button click
 buttonCheck.addEventListener('click', clickHandler);
 
+// function clickhandler as a first function to call summation and final function required
 function clickHandler() {
     const dob = birthDate.value;
     const sum = calculateSumOfBirthDate(dob);
