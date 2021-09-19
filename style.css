@@ -95,6 +95,11 @@ footer{
   /* align-content: center; */
   /* display: block; */
 }
+.notice{
+  color:red;
+  font-size: 1.6rem;
+  font-weight: bolder;
+}
 .footerlist, img{
   /* display: flex; */
   padding: 1rem;
