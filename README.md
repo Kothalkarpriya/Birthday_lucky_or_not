@@ -11,6 +11,5 @@ It is an fun activity created to practise my skills of vanilla
 Javascript.
 
 <hr>
-Created by 
-# Priya Kothalkar
- Mark 11 assignement
+
+# Mark 11
