@@ -98,7 +98,7 @@ footer{
 .notice{
   color:red;
   font-size: 1.6rem;
-  font-weight: bolder;
+  font-weight: bold;
 }
 .footerlist, img{
   /* display: flex; */
