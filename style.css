@@ -13,6 +13,7 @@
 }
 body{
   background-color: var(--secondary );
+
 }
 .pagewrap{
   display: flex;
@@ -43,7 +44,7 @@ p{
   font-weight: bold;
 }
 .container{
-  min-width: 60%;
+  max-width: 60%;
   margin: auto;
   padding: 1rem;
 }
