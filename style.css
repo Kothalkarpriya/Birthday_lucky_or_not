@@ -1,11 +1,11 @@
 :root{
   --primary:#FDE047;
-  --secondary: #312E81;
+  --secondary: #5a189a;
   --background:#F5D0FE;
   --color:#CFFAFE;
   --lighter:#FDF4FF;
 }
-*{
+*,*::before,*::after{
   margin: 0;
   padding: 0;
   /* display: block; */
@@ -14,15 +14,22 @@
 body{
   background-color: var(--secondary );
 }
+.pagewrap{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
 nav{
   /* background-color: var(--background);  */
   padding: 2rem;
   color:var(--primary);
- 
   text-align: center;
   font-size: xx-large;
   font-weight: bolder;
   /* width: 100%; */
+}
+main{
+  flex-grow: 1;
 }
 h1{
   text-align: center;
@@ -89,7 +96,7 @@ textarea{
 }
 footer{
   /* background-color: var(--background); */
-  padding: 1rem;
+  padding: 2rem;
   color: var(--primary);
   /* text-align: center; */
   /* align-content: center; */
