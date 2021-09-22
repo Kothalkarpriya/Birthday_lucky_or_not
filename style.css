@@ -18,50 +18,47 @@ body{
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  text-align: center;
 }
 nav{
-  /* background-color: var(--background);  */
   padding: 2rem;
   color:var(--primary);
-  text-align: center;
-  font-size: xx-large;
+  width: 100%;
+}
+.header{
+  font-size: 2rem;
   font-weight: bolder;
-  /* width: 100%; */
 }
 main{
   flex-grow: 1;
-}
-h1{
-  text-align: center;
-}
-div{
-  /* background-color: var(--color); */
-  /* margin: auto; */
-  padding: 2rem;
-  text-align: center;
-  /* margin: 2rem; */
-  /* align-content: center; */
 }
 p{
   color:var(--primary);
   padding: 0.5rem;
   text-align: center;
 }
+.notice {
+  color: red;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
 .container{
-  width: 600px;
+  min-width: 60%;
   margin: auto;
+  padding: 1rem;
 }
 input,label{
   display: block;  
   font-size: large;
+  margin: auto;
 }
 label{
   font-size: larger;
   font-weight: bold;
   color: var(--primary);
 }
-input{
-  width: 100%;
+.input{
+  width: 80%;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
   padding: 1rem;
@@ -90,27 +87,19 @@ textarea{
   width: 80%;
   padding: 1rem;
   border-radius:0.5rem;
-  color: var(--primary);
-  border-color: var(--primary );
-  font-size: larger;
+  background-color: var(--secondary);
+  text-align: center;
+  border:2px solid var(--primary );
+  font-size: 1.6rem;
 }
 footer{
-  /* background-color: var(--background); */
   padding: 2rem;
   color: var(--primary);
-  /* text-align: center; */
-  /* align-content: center; */
-  /* display: block; */
 }
-.notice{
-  color:red;
-  font-size: 1.6rem;
-  font-weight: bold;
+.fot{
+  font-size: larger;
 }
 .footerlist, img{
-  /* display: flex; */
   padding: 1rem;
   align-content: center;
-  /* margin: 1rem; */
-  /* text-align: center; */
 }

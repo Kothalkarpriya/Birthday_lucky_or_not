@@ -14,6 +14,7 @@ function clickHandler() {
     if (sum && dob) {
         birthDateIsLuckyOrNot(sum, luckyNumber.value);
     } else {
+        result.style.color = 'red';
         result.innerText = 'Please enter both the fields';
     }
 }
