@@ -36,6 +36,7 @@ function birthDateIsLuckyOrNot(sum, luckyNumber) {
     // finding modulus of dateof birth number sum by the lucky number
 
     if (sum % luckyNumber === 0) {
+        result.style.color = 'yellow';
         result.innerText = 'Your Birthday is lucky';
     } else {
         result.innerText = 'Your Birthday is not lucky, So sad';
