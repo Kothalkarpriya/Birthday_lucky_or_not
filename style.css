@@ -59,7 +59,8 @@ label{
   color: var(--primary);
 }
 .input{
-  width: 80%;
+  width: 100%;
+  max-width: 60%;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
   padding: 1rem;
@@ -85,8 +86,9 @@ label{
   /* background-color: var(--lighter); */
 }
 textarea{
-  width: 80%;
-  padding: 1rem;
+  width: 100%;
+  max-width: 60%;
+  padding: 1.3rem;
   border-radius:0.5rem;
   background-color: var(--secondary);
   text-align: center;
