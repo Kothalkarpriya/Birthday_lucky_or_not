@@ -5,7 +5,15 @@ const result = document.querySelector('#output');
 // Created variables using id from Html
 
 // Adding a event listerner for button click
-buttonCheck.addEventListener('click', clickHandler);
+buttonCheck.addEventListener('click', ()=>{
+    if(luckyNumber.value >= 0)
+    {
+        clickHandler();
+    }else{
+        result.style.color = 'red';
+        result.innerText = 'Please enter positive Value';
+    }
+});
 
 // function clickhandler as a first function to call summation and final function required
 function clickHandler() {
